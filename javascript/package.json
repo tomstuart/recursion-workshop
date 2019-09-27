@@ -1,0 +1,9 @@
+{
+  "license": "WTFPL",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
