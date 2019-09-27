@@ -1,3 +1,7 @@
 def factorial(number)
-  # TODO
+  if number.zero?
+    1
+  else
+    number * factorial(number.pred)
+  end
 end

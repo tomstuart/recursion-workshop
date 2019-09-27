@@ -1,5 +1,9 @@
 const factorial = number => {
-  // TODO
+  if (number === 0) {
+    return 1;
+  } else {
+    return number * factorial(number - 1);
+  }
 };
 
 export default factorial;
