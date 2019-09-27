@@ -1,6 +1,8 @@
 {
   "license": "WTFPL",
   "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
   },
   "jest": {
